@@ -11,13 +11,13 @@ export const Wrapper = styled.div`
 
 export const Box = styled.a`
   display: block;
+  margin-bottom: 10px;
   padding: 20px;
   border-radius: 10px;
   background: ${petrol};
   color: #fff;
   font-size: 2em;
   font-weight: 500;
-  margin-bottom: 10px;
 `;
 
 export const Subtitle = styled.span`

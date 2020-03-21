@@ -1,6 +1,7 @@
 import React from "react";
 import Partners from "../components/Partners";
 import PhoneNumberBox from "../components/PhoneNumberBox";
+import Team from "../components/Team";
 import {
   Content,
   H2,
@@ -51,6 +52,7 @@ const Home = () => (
           Anruft entfernt. Mit PodcastPhone.
         </p>
         <PhoneNumberBox />
+        <Team />
         <Partners />
       </Content>
     </Wrapper>
