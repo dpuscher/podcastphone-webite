@@ -1,4 +1,6 @@
 import React from "react";
+import Partners from "../components/Partners";
+import PhoneNumberBox from "../components/PhoneNumberBox";
 import {
   Content,
   H2,
@@ -18,9 +20,17 @@ const Home = () => (
       <Content>
         <H2>Digitale Inhalte für die Strippe</H2>
         <p>
-          Das <strong>#podcastphone</strong>: Wir bringen digitale Inhalte wie
-          Podcasts via Telefon zu der älteren Bevölkerung & Menschen in
-          Isolation oder Quarantäne ohne Internetzugang.
+          Im Rahmen des #wirvsvirus Hackathon der Bundesregierung Deutschland
+          werden mutige und innovative Ideen gesucht, die der Gesellschaft dabei
+          helfen, jetzt solidarisch zu sein und gestärkt aus der aktuellen
+          schwierigen Situation durch Covid-19 hervorzugehen.
+        </p>
+        <p>
+          Unter der Challenge „Analoge Unterstützung: Wie können Personen (bes.
+          SeniorInnen) ohne Internet-Zugang betreut und unterstützt werden?“ hat
+          es sich das Team von PodcastPhone zur Aufgabe gemacht, digitale
+          Inhalte wie Podcasts via Telefon zu der älteren Bevölkerung & Menschen
+          in Isolation oder Quarantäne ohne Internetzugang zu bringen.
         </p>
         <p>
           Mit #podcastphone entsteht ein öffentlicher Informationsdienst, der
@@ -31,6 +41,17 @@ const Home = () => (
           untereinander ermöglichen und sogar die Möglichkeit eines Gesprächs
           mit einem Seelsorger oder Pfarrer anbieten.
         </p>
+        <p>
+          Dadurch soll nicht nur eine Brücke zwischen der digitalen Medienwelt
+          und analogen Kommunikationsmitteln geschlagen werden, sondern auch die
+          Möglichkeit entstehen, sich der Gesellschaft wieder näher zu fühlen.
+        </p>
+        <p>
+          Die Informationsbreite des Internets ist in Zukunft nur noch einen
+          Anruft entfernt. Mit PodcastPhone.
+        </p>
+        <PhoneNumberBox />
+        <Partners />
       </Content>
     </Wrapper>
   </>
