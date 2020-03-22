@@ -13,7 +13,6 @@ export default [
     image: imageDaniel,
     content:
       "Daniel ist Webentwickler und Teilzeit-Nerd. Beruflich leitet er die technische Weiterentwicklung einer renommierten Entertainment-Plattform in der Filmbranche.",
- 
   },
   {
     name: "Dennis",
@@ -24,7 +23,7 @@ export default [
   {
     name: "Joe",
     image: imageJoe,
-    sprichwort: "Oldie, but in Zeiten der Krise Goldie",
+    saying: "Oldie, but in Zeiten der Krise Goldie",
     content:
       "Joe hat eine Vorliebe für Technologien und Innovationen, die die Welt verändern: Seine Welt sind die digitalen Medien. Seit 15 Jahren arbeitet er im IT-Services Bereich u.a. für Kirchen und diakonische Einrichtungen. In Projekten wird er aufgenommen, um mit maximalem Speed neue Produkte und Services zu generieren, zu professionalisieren und fit für die Zukunft zu machen.",
   },
@@ -37,7 +36,7 @@ export default [
   {
     name: "Niklas",
     image: imageNiklas,
-    sprichwort: "Einfach und schnell, digital und lokal",
+    saying: "Einfach und schnell, digital und lokal",
     content:
       "Niklas ist Webentwickler und nebenberuflich selbstständiger IT-Dienstleister. In seiner Freizeit geht er gerne klettern und leitet Freizeiten sowie Veranstaltungen in der Jugendarbeit. Berufsbedingt ist er sehr technikaffin und versucht für jedes Problem eine technische Lösung zu finden.",
   },
@@ -56,6 +55,7 @@ export default [
   {
     name: "Theresa",
     image: imageTheresa,
-    content: "Theresa ist Strategin im Kreativumfeld und Storytelling-Enthusiastin mit Marketing- und Beratungsexpertise in der Musik- und Konsumgüterindustrie. Im Schwerpunkt Consumer Insights berät sie Kunden zu Produktentwicklungs- und Launchstrategien und wandelt technische Insights in praktische Marketingansätze um. Als Ideengeberin für das PodcastPhone unterstützt sie im Projektmanagement & Marketing bei der Umsetzung der Idee und Etablierung des funktionierenden Produkts.",
+    content:
+      "Theresa ist Strategin im Kreativumfeld und Storytelling-Enthusiastin mit Marketing- und Beratungsexpertise in der Musik- und Konsumgüterindustrie. Im Schwerpunkt Consumer Insights berät sie Kunden zu Produktentwicklungs- und Launchstrategien und wandelt technische Insights in praktische Marketingansätze um. Als Ideengeberin für das PodcastPhone unterstützt sie im Projektmanagement & Marketing bei der Umsetzung der Idee und Etablierung des funktionierenden Produkts.",
   },
 ];

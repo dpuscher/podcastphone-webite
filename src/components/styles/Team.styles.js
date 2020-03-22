@@ -47,7 +47,7 @@ export const Name = styled.div`
   font-weight: bold;
 `;
 
-export const Sprichwort = styled.div`
+export const Saying = styled.div`
   font-size: 1em;
   font-style: italic;
 `;
