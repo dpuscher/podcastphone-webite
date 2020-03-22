@@ -1,6 +1,7 @@
 import React from "react";
 import Partners from "../components/Partners";
 import PhoneNumberBox from "../components/PhoneNumberBox";
+import Press from "../components/Press";
 import Team from "../components/Team";
 import VideoEmbed from "../components/VideoEmbed";
 import Vision from "../components/Vision";
@@ -57,6 +58,7 @@ const Home = () => (
         <VideoEmbed />
         <Vision />
         <Team />
+        <Press />
         <Partners />
       </Content>
     </Wrapper>
