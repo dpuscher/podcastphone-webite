@@ -1,6 +1,7 @@
 import React from "react";
 import Partners from "../components/Partners";
 import PhoneNumberBox from "../components/PhoneNumberBox";
+import Press from "../components/Press";
 import Team from "../components/Team";
 import Vision from "../components/Vision";
 import {
@@ -55,6 +56,7 @@ const Home = () => (
         <PhoneNumberBox />
         <Vision />
         <Team />
+        <Press />
         <Partners />
       </Content>
     </Wrapper>

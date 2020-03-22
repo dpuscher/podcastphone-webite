@@ -36,10 +36,10 @@ const Header = () => {
             <MenuItem>Vision</MenuItem>
           </Link>
           <Link href="/#team" passHref>
-            <MenuItem href="#team">Team</MenuItem>
+            <MenuItem>Team</MenuItem>
           </Link>
-          <Link href="/#team" passHref>
-            <MenuItem href="#press">Presse</MenuItem>
+          <Link href="/#press" passHref>
+            <MenuItem>Presse</MenuItem>
           </Link>
           <Spacer />
           <MenuItem
