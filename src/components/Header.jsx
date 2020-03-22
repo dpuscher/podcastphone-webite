@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import MenuIcon from "./icons/MenuIcon";
+import TwitterIcon from "./icons/TwitterIcon";
+import InstagramIcon from "./icons/InstagramIcon";
 import {
   H1,
   HeaderInner,
@@ -36,6 +38,16 @@ const Header = () => {
             <MenuItem href="#team">Team</MenuItem>
           </Link>
           <Spacer />
+          <Link href="https://twitter.com/PodcastPhone" passHref>
+              <MenuItem>
+                <TwitterIcon width={35} color="white"/>
+              </MenuItem>
+          </Link>
+          <Link href="https://www.instagram.com/podcastphone/" passHref>
+              <MenuItem>
+                <InstagramIcon width={25} color="white"/>
+              </MenuItem>
+          </Link>
           <ToggleButton onClick={toggleOpen}>
             <MenuIcon size={20} color="#fff" />
           </ToggleButton>
