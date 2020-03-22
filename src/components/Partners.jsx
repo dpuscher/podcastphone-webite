@@ -12,17 +12,17 @@ const Partners = () => (
       <Logos>
         <Heading>Initiiert von:</Heading>
         <LogoWrapper>
-          <img src={regierungLogo} alt="ARD" width="120" />
-          <img src={hackathonLogo} alt="ARD" width="120" />
+          <img src={regierungLogo} alt="Bundesregierung" width="120" />
+          <img src={hackathonLogo} alt="WirVsVirus" width="120" />
         </LogoWrapper>
       </Logos>
 
       <Logos>
         <Heading>Unterstützt von:</Heading>
         <LogoWrapper>
-          <img src={zdfLogo} alt="ARD" width="120" />
-          <img src={telekomLogo} alt="ARD" width="120" />
-          <img src={cellularLogo} alt="ARD" width="120" />
+          <img src={zdfLogo} alt="ZDF" width="120" />
+          <img src={telekomLogo} alt="Telekom" width="120" />
+          <img src={cellularLogo} alt="Cellular" width="120" />
         </LogoWrapper>
       </Logos>
     </Wrapper>
