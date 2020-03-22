@@ -38,16 +38,12 @@ const Header = () => {
             <MenuItem href="#team">Team</MenuItem>
           </Link>
           <Spacer />
-          <Link href="https://twitter.com/PodcastPhone" passHref>
-              <MenuItem>
-                <TwitterIcon width={35} color="white"/>
-              </MenuItem>
-          </Link>
-          <Link href="https://www.instagram.com/podcastphone/" passHref>
-              <MenuItem>
-                <InstagramIcon width={25} color="white"/>
-              </MenuItem>
-          </Link>
+          <MenuItem href="https://twitter.com/PodcastPhone">
+            <TwitterIcon width={35} color="white" />
+          </MenuItem>
+          <MenuItem href="https://www.instagram.com/podcastphone/">
+            <InstagramIcon width={25} color="white" />
+          </MenuItem>
           <ToggleButton onClick={toggleOpen}>
             <MenuIcon size={20} color="#fff" />
           </ToggleButton>
