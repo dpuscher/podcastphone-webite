@@ -3,6 +3,7 @@ import Partners from "../components/Partners";
 import PhoneNumberBox from "../components/PhoneNumberBox";
 import Team from "../components/Team";
 import Vision from "../components/Vision";
+import Press from "../components/Press"
 import {
   Content,
   H2,
@@ -55,6 +56,7 @@ const Home = () => (
         <PhoneNumberBox />
         <Vision />
         <Team />
+        <Press />
         <Partners />
       </Content>
     </Wrapper>
