@@ -47,6 +47,11 @@ export const Name = styled.div`
   font-weight: bold;
 `;
 
+export const Saying = styled.div`
+  font-size: 1em;
+  font-style: italic;
+`;
+
 export const Content = styled.div`
   margin-top: 15px;
 `;
