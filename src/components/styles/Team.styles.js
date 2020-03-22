@@ -2,12 +2,6 @@ import styled, { css } from "styled-components";
 import { petrol } from "../../lib/colors";
 import { desktop } from "../../lib/mediaQueries";
 
-export const H2 = styled.h2`
-  margin-top: 50px;
-  color: ${petrol};
-  font-size: 2rem;
-`;
-
 export const Items = styled.div`
   display: block;
   margin: 0 -20px;
@@ -51,6 +45,11 @@ export const Item = styled.div`
 export const Name = styled.div`
   font-size: 1.5em;
   font-weight: bold;
+`;
+
+export const Saying = styled.div`
+  font-size: 1em;
+  font-style: italic;
 `;
 
 export const Content = styled.div`

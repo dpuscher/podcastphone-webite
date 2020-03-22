@@ -1,5 +1,5 @@
 import React from "react";
-import { H2 } from "./styles/Team.styles";
+import H2 from "./typography/H2";
 
 const Vision = () => (
   <>
