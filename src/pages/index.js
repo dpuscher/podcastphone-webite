@@ -2,6 +2,7 @@ import React from "react";
 import Partners from "../components/Partners";
 import PhoneNumberBox from "../components/PhoneNumberBox";
 import Team from "../components/Team";
+import VideoEmbed from "../components/VideoEmbed";
 import Vision from "../components/Vision";
 import {
   Content,
@@ -53,6 +54,7 @@ const Home = () => (
           Anruft entfernt. Mit PodcastPhone.
         </p>
         <PhoneNumberBox />
+        <VideoEmbed />
         <Vision />
         <Team />
         <Partners />
