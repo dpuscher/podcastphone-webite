@@ -38,6 +38,9 @@ const Header = () => {
           <Link href="/#team" passHref>
             <MenuItem href="#team">Team</MenuItem>
           </Link>
+          <Link href="/#team" passHref>
+            <MenuItem href="#press">Presse</MenuItem>
+          </Link>
           <Spacer />
           <MenuItem
             href="https://twitter.com/PodcastPhone"
