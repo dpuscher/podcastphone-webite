@@ -31,6 +31,7 @@ const Header = () => {
           </H1>
           <MenuItem href="#vision">Vision</MenuItem>
           <MenuItem href="#team">Team</MenuItem>
+          <MenuItem href="#press">Presse</MenuItem>
           <Spacer />
           <ToggleButton onClick={toggleOpen}>
             <MenuIcon size={20} color="#fff" />
