@@ -29,8 +29,12 @@ const Header = () => {
               <a>PodcastPhone</a>
             </Link>
           </H1>
-          <MenuItem href="#vision">Vision</MenuItem>
-          <MenuItem href="#team">Team</MenuItem>
+          <Link href="/#vision" passHref>
+            <MenuItem>Vision</MenuItem>
+          </Link>
+          <Link href="/#team" passHref>
+            <MenuItem href="#team">Team</MenuItem>
+          </Link>
           <Spacer />
           <ToggleButton onClick={toggleOpen}>
             <MenuIcon size={20} color="#fff" />
