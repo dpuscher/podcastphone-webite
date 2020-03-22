@@ -1,4 +1,5 @@
 import React from "react";
+import externalLinkAttr from "../lib/externalLinkAttr";
 import { Item, Items, SubHeadline } from "./styles/Press.styles";
 import H2 from "./typography/H2";
 
@@ -36,6 +37,32 @@ const Press = () => (
           src="https://platform.twitter.com/widgets.js"
           charset="utf-8"
         />
+      </Item>
+
+      <Item>
+        <SubHeadline>CHIP Fazit zu PodcastPhone</SubHeadline>
+        <p>
+          „Hervorragendes Angebot für all diejenigen, die kein Zugang zum
+          Internet haben oder dieses nicht für sich als Informationsquelle
+          nutzen können.”
+          <br />
+          <small>
+            Michael Humpa | CHIP Software-Redaktion |{" "}
+            <a
+              href="https://www.chip.de/downloads/PodcastPhone_182565403.html"
+              {...externalLinkAttr}
+            >
+              Quelle
+            </a>
+          </small>
+        </p>
+
+        <SubHeadline hasMoreSpace>Pressemitteilung</SubHeadline>
+        <p>
+          <a href="/documents/PM_PodcastPhone_001.pdf" {...externalLinkAttr}>
+            Pressemitteilung vom 22. März 2020
+          </a>
+        </p>
       </Item>
     </Items>
   </>
