@@ -60,7 +60,7 @@ const Press = () => (
         <SubHeadline hasMoreSpace>Pressemitteilung</SubHeadline>
         <p>
           <a href="/documents/PM_PodcastPhone_001.pdf" {...externalLinkAttr}>
-            Pressemittelung vom 22. März 2020
+            Pressemitteilung vom 22. März 2020
           </a>
         </p>
       </Item>
