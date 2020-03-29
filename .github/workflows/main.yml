@@ -28,4 +28,5 @@ jobs:
     - name: Run stylelint with reviewdog
       uses: reviewdog/action-stylelint@v1.0.1
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }} 
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        stylelint_input: '**/*.{js,jsx}'
