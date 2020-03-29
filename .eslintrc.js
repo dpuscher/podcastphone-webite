@@ -27,4 +27,12 @@ module.exports = {
     "react/jsx-props-no-spreading": [0],
     "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
   },
+  overrides: [
+    {
+      files: ["*.styles.js"],
+      rules: {
+        "import/prefer-default-export": "off",
+      },
+    },
+  ],
 };
