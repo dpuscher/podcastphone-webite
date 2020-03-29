@@ -24,3 +24,8 @@ jobs:
       uses: reviewdog/action-eslint@v1.0.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }} 
+
+    - name: Run stylelint with reviewdog
+      uses: reviewdog/action-stylelint@v1.0.1
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }} 
