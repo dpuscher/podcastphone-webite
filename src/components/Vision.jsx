@@ -23,8 +23,13 @@ const Vision = () => (
       Thema Coronavirus auswählen.
     </p>
     <p>
-      <strong>1. Aktuelle, regionale Nachrichten:</strong> Wählt ein Anrufer die
-      Option 1, erhält er automatisch eine Ansage eines aktuellen
+      <strong>1. Aktuelle Botschaften von Bundespräsident oder Bundeskanzlerin:</strong> 
+      Wählt ein Anrufer die Option 1, erhält er die aktuelle Botschaften von Bundespräsident Herr Frank-Walter Steinmeier 
+      oder von Bundeskanzlerin Frau Dr. Angela Dorothea Merkel.
+    </p>
+    <p>
+      <strong>2. Aktuelle, regionale Nachrichten:</strong> Wählt ein Anrufer die
+      Option 2, erhält er automatisch eine Ansage eines aktuellen
       Nachrichtendienstes seiner Region. Dabei wird ein digital hinterlegter
       Text ausgelesen und via text-to-speech auf der Audiospur an den Anrufer
       weitergegeben. Die Lokalisierung des Anrufers erfolgt anhand seiner
@@ -33,11 +38,17 @@ const Vision = () => (
       einzugeben.
     </p>
     <p>
-      <strong>2. Podcasts:</strong> Wählt ein Anrufer die Option 2, werden ihm 3
+      <strong>3. Podcasts:</strong> Wählt ein Anrufer die Option 3, werden ihm 3
       verschiedene Podcasts zum Thema Coronavirus vorgestellt (z.B. ZDF heute
       Journal & ARD Tagesschau in 100 Sekunden), zwischen denen er per
       Tasteneingabe auswählen kann. Die Podcasts sind tagesaktuell und haben
       eine Dauer von jeweils 5 – 30 Minuten.
+    </p>
+    <p>
+      <strong>4. Kirchliche Inhalte:</strong> Wählt ein Anrufer die Option 4, 
+      werden ihm 2 verschiedene Audiobotschaften der Kirche angeboten. 
+      Die Inhalte stammen aktuell von Pfarrer Roland Kupski und 
+      von Pfarrerin Andrea Wöllenstein aus der Evangelische Kirche von Kurhessen-Waldeck (EKKW).
     </p>
     <p>
       PodcastPhone hat sich zum Ziel gesetzt, eine Brücke zwischen der digitalen
