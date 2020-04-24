@@ -14,6 +14,7 @@ import {
   Wrapper,
 } from "../styles/indexPage.styles";
 
+// eslint-disable-next-line import/no-unresolved
 const header = require("../assets/header.jpg?resize&sizes[]=340&sizes[]=680&sizes[]=800&sizes[]=1024");
 
 const Home = () => (

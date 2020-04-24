@@ -1,5 +1,4 @@
 import styled, { css } from "styled-components";
-import { petrol } from "../../lib/colors";
 import { desktop } from "../../lib/mediaQueries";
 
 export const Items = styled.div`

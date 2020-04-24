@@ -27,7 +27,7 @@ export const LogoWrapper = styled.div`
 `;
 
 export const Logo = styled.div`
-  width: ${(props) => props.logoWidth}px;
+  width: ${props => props.logoWidth}px;
   margin-right: 15px;
 
   &:last-child {
