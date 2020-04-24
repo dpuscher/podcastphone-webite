@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import GoogleAnalytics from "../components/tracking/GoogleAnalytics";
 import GlobalStyles from "../styles/GlobalStyles";
 
+// eslint-disable-next-line react/prop-types
 export default ({ Component, pageProps }) => (
   <>
     <Head>

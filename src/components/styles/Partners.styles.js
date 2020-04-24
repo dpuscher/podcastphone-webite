@@ -26,6 +26,20 @@ export const LogoWrapper = styled.div`
   height: 80px;
 `;
 
+export const Logo = styled.div`
+  width: ${props => props.logoWidth}px;
+  margin-right: 15px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+`;
+
 export const Heading = styled.div`
   width: 50%;
   margin-bottom: 10px;

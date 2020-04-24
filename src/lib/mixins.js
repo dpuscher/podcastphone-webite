@@ -1,5 +1,6 @@
 import { css } from "styled-components";
 
+// eslint-disable-next-line import/prefer-default-export
 export const buttonReset = css`
   width: auto;
   margin: 0;
