@@ -14,7 +14,7 @@ import H2 from "./typography/H2";
 
 const Team = ({ t }) => (
   <>
-    <H2 id="team">{t("teamHeadline")}</H2>
+    <H2 id="team">{t("teamHeading")}</H2>
     <Items>
       {teamData.map(({ name, image, saying, content }) => (
         <Item key={name}>
