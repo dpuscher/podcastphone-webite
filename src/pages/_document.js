@@ -1,6 +1,7 @@
 import React from "react";
 import { ServerStyleSheet } from "styled-components";
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import { lngFromReq } from "next-i18next/dist/commonjs/utils";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -16,6 +17,7 @@ export default class MyDocument extends Document {
       const initialProps = await Document.getInitialProps(ctx);
       return {
         ...initialProps,
+        lng: lngFromReq(ctx.req),
         styles: (
           <>
             {initialProps.styles}
@@ -30,7 +32,7 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="de">
+      <Html lang={this.props.lng}>
         <Head />
         <body>
           <Main />

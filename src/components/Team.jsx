@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+import { withTranslation } from "next-i18next";
 import teamData from "./data/teamData";
 import {
   Content,
@@ -10,7 +12,7 @@ import {
 } from "./styles/Team.styles";
 import H2 from "./typography/H2";
 
-const Team = () => (
+const Team = ({ t }) => (
   <>
     <H2 id="team">Team</H2>
     <Items>
@@ -23,12 +25,16 @@ const Team = () => (
             alt=""
           />
           <Name>{name}</Name>
-          <Saying>{saying}</Saying>
-          <Content>{content}</Content>
+          <Saying>{saying && t(saying)}</Saying>
+          <Content>{content && t(content)}</Content>
         </Item>
       ))}
     </Items>
   </>
 );
 
-export default Team;
+Team.propTypes = {
+  t: PropTypes.func.isRequired,
+};
+
+export default withTranslation("home")(Team);
