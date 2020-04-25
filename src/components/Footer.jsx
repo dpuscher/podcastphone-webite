@@ -1,18 +1,23 @@
+import PropTypes from "prop-types";
 import React from "react";
-import Link from "next/link";
+import { Link, withTranslation } from "../../i18n";
 import { FooterInner, FooterLink, Wrapper } from "./styles/Footer.styles";
 
-const Footer = () => (
+const Footer = ({ t }) => (
   <Wrapper>
     <FooterInner>
       <Link href="/impressum" passHref>
-        <FooterLink>Impressum</FooterLink>
+        <FooterLink>{t("legal")}</FooterLink>
       </Link>
       <Link href="/datenschutz" passHref>
-        <FooterLink>Datenschutz</FooterLink>
+        <FooterLink>{t("privacy")}</FooterLink>
       </Link>
     </FooterInner>
   </Wrapper>
 );
 
-export default Footer;
+Footer.propTypes = {
+  t: PropTypes.func.isRequired,
+};
+
+export default withTranslation("common")(Footer);

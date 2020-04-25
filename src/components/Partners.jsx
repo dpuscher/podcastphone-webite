@@ -1,4 +1,6 @@
+import PropTypes from "prop-types";
 import React from "react";
+import { withTranslation } from "../../i18n";
 import sipgateLogo from "../assets/logo_sipgate.svg";
 import cellularLogo from "../assets/logo_cellular.svg";
 import zdfLogo from "../assets/logo_zdf.svg";
@@ -13,11 +15,11 @@ import {
   Wrapper,
 } from "./styles/Partners.styles";
 
-const Partners = () => (
+const Partners = ({ t }) => (
   <>
     <Wrapper>
       <Logos>
-        <Heading>Initiiert von:</Heading>
+        <Heading>{t("initiatedBy")}:</Heading>
         <LogoWrapper>
           <Logo logoWidth={120}>
             <img src={regierungLogo} alt="Bundesregierung" width="120" />
@@ -29,7 +31,7 @@ const Partners = () => (
       </Logos>
 
       <Logos>
-        <Heading>Unterstützt von:</Heading>
+        <Heading>{t("supportedBy")}:</Heading>
         <LogoWrapper>
           <Logo logoWidth={120}>
             <img
@@ -53,4 +55,8 @@ const Partners = () => (
   </>
 );
 
-export default Partners;
+Partners.propTypes = {
+  t: PropTypes.func.isRequired,
+};
+
+export default withTranslation("home")(Partners);

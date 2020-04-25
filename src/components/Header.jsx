@@ -1,5 +1,7 @@
-import React, { useState } from "react";
-import Link from "next/link";
+import PropTypes from "prop-types";
+import React, { useState, useEffect } from "react";
+import Router from "next/router";
+import { i18n, Link, withTranslation } from "../../i18n";
 import externalLinkAttr from "../lib/externalLinkAttr";
 import MenuIcon from "./icons/MenuIcon";
 import TwitterIcon from "./icons/TwitterIcon";
@@ -9,16 +11,31 @@ import {
   HeaderInner,
   HeightPlaceholder,
   Icon,
+  LanguageButton,
   MenuItem,
   Spacer,
   ToggleButton,
   Wrapper,
 } from "./styles/Header.styles";
 
-const Header = () => {
+const Header = ({ t }) => {
   const [open, setOpen] = useState(false);
 
+  const close = () => setOpen(false);
+
+  useEffect(() => {
+    Router.events.on("routeChangeStart", close);
+
+    return () => {
+      Router.events.off("routeChangeStart", close);
+    };
+  });
+
   const toggleOpen = () => setOpen(state => !state);
+
+  const toggleLanguage = () => {
+    i18n.changeLanguage(i18n.language === "en" ? "de" : "en");
+  };
 
   return (
     <>
@@ -33,26 +50,35 @@ const Header = () => {
             </Link>
           </H1>
           <Link href="/#vision" passHref>
-            <MenuItem>Vision</MenuItem>
+            <MenuItem>{t("visionHeading")}</MenuItem>
           </Link>
           <Link href="/#team" passHref>
-            <MenuItem>Team</MenuItem>
+            <MenuItem>{t("teamHeading")}</MenuItem>
           </Link>
           <Link href="/#press" passHref>
-            <MenuItem>Presse</MenuItem>
+            <MenuItem>{t("pressHeading")}</MenuItem>
           </Link>
           <Spacer />
           <MenuItem
             href="https://twitter.com/PodcastPhone"
+            isSmall
+            isIcon
             {...externalLinkAttr}
           >
-            <TwitterIcon width={35} color="white" />
+            <TwitterIcon width={25} color="white" />
           </MenuItem>
           <MenuItem
             href="https://www.instagram.com/podcastphone/"
+            isSmall
+            isIcon
             {...externalLinkAttr}
           >
             <InstagramIcon width={25} color="white" />
+          </MenuItem>
+          <MenuItem isSmall onClick={toggleLanguage} isButton as="button">
+            <LanguageButton>
+              {i18n.language === "en" ? "DE" : "EN"}
+            </LanguageButton>
           </MenuItem>
           <ToggleButton onClick={toggleOpen}>
             <MenuIcon size={20} color="#fff" />
@@ -63,4 +89,8 @@ const Header = () => {
   );
 };
 
-export default Header;
+Header.propTypes = {
+  t: PropTypes.func.isRequired,
+};
+
+export default withTranslation("home")(Header);

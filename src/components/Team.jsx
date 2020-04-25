@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { withTranslation } from "next-i18next";
+import { withTranslation } from "../../i18n";
 import teamData from "./data/teamData";
 import {
   Content,
@@ -14,7 +14,7 @@ import H2 from "./typography/H2";
 
 const Team = ({ t }) => (
   <>
-    <H2 id="team">Team</H2>
+    <H2 id="team">{t("teamHeadline")}</H2>
     <Items>
       {teamData.map(({ name, image, saying, content }) => (
         <Item key={name}>

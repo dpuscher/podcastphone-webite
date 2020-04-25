@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { withTranslation } from "next-i18next";
+import { withTranslation } from "../../i18n";
 import H2 from "./typography/H2";
 
 const Vision = ({ t }) => (

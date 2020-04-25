@@ -26,7 +26,7 @@ const Home = ({ t }) => (
         <HeroImage src={header.src} srcSet={header.srcSet} alt="" />
       </Hero>
       <Content>
-        <H2>{t("slogan")}</H2>
+        <H2>{t("common:slogan")}</H2>
         <p>{t("intro1")}</p>
         <p>{t("intro2")}</p>
         <p>{t("intro3")}</p>
@@ -45,11 +45,11 @@ const Home = ({ t }) => (
 );
 
 Home.getInitialProps = async () => ({
-  namespacesRequired: ["home"],
+  namespacesRequired: ["common", "home"],
 });
 
 Home.propTypes = {
   t: PropTypes.func.isRequired,
 };
 
-export default withTranslation("home")(Home);
+export default withTranslation(["home", "common"])(Home);

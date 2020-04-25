@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { withTranslation } from "next-i18next";
+import { withTranslation } from "../../i18n";
 import logoHr3 from "../assets/press/logo_hr3.svg";
 import logoHessenschau from "../assets/press/logo_hessenschau.svg";
 import logoChip from "../assets/press/logo_chip.svg";

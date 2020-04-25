@@ -1,5 +1,4 @@
 {
-  "slogan": "Digital contents via landline",
   "intro1": "The #WirVsVirus hackathon of the German Government was looking for courageous and innovative ideas that would help society to show solidarity and emerge stronger from the current difficult situation caused by Covid-19.",
   "intro2": "Under the challenge \"Analogue support: How can people (especially seniors) without internet access be cared for and supported?\" the team of PodcastPhone has committed itself to making digital content such as podcasts accessible via telephone to the elderly population and people in isolation or quarantine without internet access.",
   "intro3": "With PodcastPhone, a public information service is being created that enables analogue access to digital content. Our goal is to offer daily updated digital and regional formats on the audio track under a toll-free telephone number. In a further step, the service should enable people to get in touch with each other and even offer the possibility of a conversation with a priest.",
@@ -22,6 +21,7 @@
   "vision7": "",
   "vision8": "Due to the high demand and success of the service, we are continually working to improve and expand our service.",
   "vision9": "PodcastPhone has been developed in under 48 hours and consumed for more than 4000 minutes.",
+  "teamHeading": "Team",
   "teamDaniel": "Daniel is a web developer and part-time nerd. Professionally, he leads the technical development of a renowned entertainment platform in the film industry.",
   "teamDennis": "As a member of the Competence Center Internet of Things and a self-confessed agilist, Dennis Gugel accompanies companies on the way from idea generation to business model development to market-ready products. He is active as an innovator, coach, lateral thinker and Scrum Master in various projects and understands how to implement theoretical frameworks such as Design Thinking, Scrum, Kanban or Business Model Canvas in a sustainable way.",
   "sayingJoe": "Oldie, but in times of crisis Goldie",
@@ -31,5 +31,17 @@
   "teamNiklas": "Niklas is a web developer and part-time self-employed IT service provider. In his free time he likes to go climbing and leads youth camps and youth work events. Due to his job he is very technically minded and tries to find a technical solution for every problem.",
   "teamPhilipp": "“Passionate about Customer Centricity” Since my start in the digital environment in 2012, I have seen many good, exciting and creative ideas, all of which were well thought out and excellently designed. However, many of these solutions have left out the critical success factor. The needs and added value of users and customers. These experiences have taught me that digital products and services can only be truly successful if they are designed with the customer in mind.",
   "teamSusanne": "Susanne Steigler is a PhD student at the Institute for Informatics at the University of Zurich. Her research focuses on the effects of technological support in cooperative encounters, for example in banks or medical practices. She is particularly interested in how technology can be used effectively for the benefit of both participants in a consulting service. In her last position as a manager at IBM, she received several international awards for outstanding achievements. Before joining IBM, she completed her Masters in Cognitive Science and Natural Language Processing at the School of Informatics at the University of Edinburgh, as well as a Bachelor's degree in Computational Linguistics and Psychology at the University of Heidelberg and a Diploma in Information Technology (DH) at the University of Cooperative Education in Mannheim. She likes to bring her interdisciplinary knowledge background to her dissertation project, which she is currently working on from the Black Forest.",
-  "teamTheresa": "Theresa is a creative strategist and storytelling enthusiast with marketing and consulting expertise in the music and consumer goods industry. With a focus on consumer insights, she advises clients on product development and launch strategies and transforms technical insights into practical marketing approaches. As the originator of the idea for the PodcastPhone, she supports the project management & marketing in the implementation of the idea and establishment of the functioning product."
+  "teamTheresa": "Theresa is a creative strategist and storytelling enthusiast with marketing and consulting expertise in the music and consumer goods industry. With a focus on consumer insights, she advises clients on product development and launch strategies and transforms technical insights into practical marketing approaches. As the originator of the idea for the PodcastPhone, she supports the project management & marketing in the implementation of the idea and establishment of the functioning product.",
+  "pressHeading": "Press",
+  "tweetHeadline": "Retweet by Dorothee Bär, Minister for Digitization",
+  "chipHeadline": "CHIP Review of PodcastPhone",
+  "chipReview": "Excellent offer for all those who do not have access to the Internet or cannot use it as a source of information for themselves.",
+  "chipSubline": "Michael Humpa | CHIP Software-Editor",
+  "source": "Source",
+  "pressReleases": "Press Releases (in German)",
+  "pressRelease1": "Press Release of 7th April 2020",
+  "pressRelease2": "Press Release of 30th March 2020",
+  "pressRelease3": "Press Release of 22nd March 2020",
+  "initiatedBy": "Initiated by",
+  "supportedBy": "Supported by"
 }

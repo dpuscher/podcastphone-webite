@@ -1,5 +1,4 @@
 {
-  "slogan": "Digitale Inhalte für die Strippe",
   "intro1": "Im Rahmen des #wirvsvirus Hackathon der Bundesregierung Deutschland werden mutige und innovative Ideen gesucht, die der Gesellschaft dabei helfen, jetzt solidarisch zu sein und gestärkt aus der aktuellen schwierigen Situation durch Covid-19 hervorzugehen.",
   "intro2": "Unter der Challenge „Analoge Unterstützung: Wie können Personen (bes. SeniorInnen) ohne Internet-Zugang betreut und unterstützt werden?“ hat es sich das Team von PodcastPhone zur Aufgabe gemacht, digitale Inhalte wie Podcasts via Telefon zu der älteren Bevölkerung & Menschen in Isolation oder Quarantäne ohne Internetzugang zu bringen.",
   "intro3": "Mit #podcastphone entsteht ein öffentlicher Informationsdienst, der einen analogen Zugang zu digitalen Inhalten ermöglicht. Unser Ziel ist es, tagesaktuelle digitale und regionale Formate auf der Tonspur unter einer öffentlichen kostenlosen Telefonnummer anzubieten. In einem weiteren Schritt soll der Dienst die Verbindung von Menschen untereinander ermöglichen und sogar die Möglichkeit eines Gesprächs mit einem Seelsorger oder Pfarrer anbieten.",
@@ -22,6 +21,7 @@
   "vision7": "Wählt ein Anrufer die Option 4, werden ihm 2 verschiedene Audiobotschaften der Kirche angeboten. Die Inhalte stammen aktuell von Pfarrer Roland Kupski und von Pfarrerin Andrea Wöllenstein aus der Evangelische Kirche von Kurhessen-Waldeck (EKKW).",
   "vision8": "PodcastPhone hat sich zum Ziel gesetzt, eine Brücke zwischen der digitalen Medienwelt und analogen Kommunikationsmitteln zu schlagen und darüber hinaus die Möglichkeit entstehen zu lassen, sich der Gesellschaft wieder näher zu fühlen.",
   "vision9": "Durch die aktuelle Situation leiden viele Menschen unter der sozialen Distanzierung oder befinden sich in Quarantäne und sind isoliert. Dieser Herausforderung möchten wir mit Zugriff auf Informationen über die aktuellen Umstände entgegentreten und über das Telefon ein Gefühl der sozialen Nähe vermitteln.",
+  "teamHeading": "Team",
   "teamDaniel": "Daniel ist Webentwickler und Teilzeit-Nerd. Beruflich leitet er die technische Weiterentwicklung einer renommierten Entertainment-Plattform in der Filmbranche.",
   "teamDennis": "Als Mitglied des Competence Centers Internet of Things und bekennender Agilist begleitet Dennis Gugel Unternehmen auf dem Weg von der Ideengenerierung über die Geschäftsmodellentwicklung bishin zu marktreifen Produkten. Er ist als Innovator, Coach, Querdenker und Scrum Master in verschiedenen Projekten tätig und versteht wie man theoretische Frameworks wie bspw. Design Thinking, Scrum, Kanban oder Business Model Canvas in der Praxis nachhaltig umsetzt.",
   "sayingJoe": "Oldie, but in Zeiten der Krise Goldie",
@@ -31,5 +31,17 @@
   "teamNiklas": "Niklas ist Webentwickler und nebenberuflich selbstständiger IT-Dienstleister. In seiner Freizeit geht er gerne klettern und leitet Freizeiten sowie Veranstaltungen in der Jugendarbeit. Berufsbedingt ist er sehr technikaffin und versucht für jedes Problem eine technische Lösung zu finden.",
   "teamPhilipp": "“Passionate about Customer Centricity” Seit meinem Start im digitalen Umfeld in 2012 habe ich viele gute, spannende und kreative Ideen gesehen, die allesamt durchdacht und hervorragend konzipiert waren. Jedoch haben viele dieser Lösungen den entscheidenden Erfolgsfaktor außen vor gelassen. Die Bedürfnisse und den Mehrwert von Anwendern und Kunden. Diese Erfahrungen haben mich gelehrt, dass digitale Produkte und Dienstleistungen nur dann wirklich erfolgreich sind, wenn sie vom Kunden aus gedacht sind.",
   "teamSusanne": "Susanne Steigler ist Doktorandin am Institut für Informatik der Universität Zürich. Ihre Forschung konzentriert sich auf die Auswirkungen der technologischen Unterstützung in kooperativen Begegnungen, zum Beispiel in Banken oder Arztpraxen. Dabei interessiert sie sich besonders dafür, wie die Technologie effektiv zum Nutzen beider Teilnehmer einer Beratungsdienstleistung eingesetzt werden kann. In ihrer letzten Position als Managerin bei IBM erhielt sie mehrere internationale Auszeichnungen für herausragende Leistungen. Bevor sie zu IBM kam, absolvierte sie ihren Master in Cognitive Science und Natural Language Processing an der School of Informatics der University of Edinburgh, sowie einen Bachelor in Computerlinguistik und Psychologie an der Universität Heidelberg und ein Diplom in Informationstechnologie (DH) an der Berufsakademie Mannheim. Ihren interdisziplinären Wissenshintergrund bringt sie gerne in ihr Dissertationsprojekt ein, an dem sie zur Zeit vom Schwarzwald aus arbeitet.",
-  "teamTheresa": "Theresa ist Strategin im Kreativumfeld und Storytelling-Enthusiastin mit Marketing- und Beratungsexpertise in der Musik- und Konsumgüterindustrie. Im Schwerpunkt Consumer Insights berät sie Kunden zu Produktentwicklungs- und Launchstrategien und wandelt technische Insights in praktische Marketingansätze um. Als Ideengeberin für das PodcastPhone unterstützt sie im Projektmanagement & Marketing bei der Umsetzung der Idee und Etablierung des funktionierenden Produkts."
+  "teamTheresa": "Theresa ist Strategin im Kreativumfeld und Storytelling-Enthusiastin mit Marketing- und Beratungsexpertise in der Musik- und Konsumgüterindustrie. Im Schwerpunkt Consumer Insights berät sie Kunden zu Produktentwicklungs- und Launchstrategien und wandelt technische Insights in praktische Marketingansätze um. Als Ideengeberin für das PodcastPhone unterstützt sie im Projektmanagement & Marketing bei der Umsetzung der Idee und Etablierung des funktionierenden Produkts.",
+  "pressHeading": "Presse",
+  "tweetHeadline": "Retweet von Dorothee Bär",
+  "chipHeadline": "CHIP Fazit zu PodcastPhone",
+  "chipReview": "Hervorragendes Angebot für all diejenigen, die kein Zugang zum Internet haben oder dieses nicht für sich als Informationsquelle nutzen können.",
+  "chipSubline": "Michael Humpa | CHIP Software-Redaktion",
+  "source": "Quelle",
+  "pressReleases": "Pressemitteilungen",
+  "pressRelease1": "Pressemitteilung vom 07. April 2020",
+  "pressRelease2": "Pressemitteilung vom 30. März 2020",
+  "pressRelease3": "Pressemitteilung vom 22. März 2020",
+  "initiatedBy": "Initiiert von",
+  "supportedBy": "Unterstützt von"
 }
