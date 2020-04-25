@@ -7,6 +7,10 @@ import BrandIcon from "../icons/BrandIcon";
 export const HeightPlaceholder = styled.div`
   width: 100px;
   height: 80px;
+
+  ${desktop(css`
+    height: 90px;
+  `)}
 `;
 
 export const Wrapper = styled.header`
@@ -21,12 +25,32 @@ export const Wrapper = styled.header`
 `;
 
 export const MenuItem = styled.a`
+  ${props =>
+    props.isButton &&
+    css`
+      ${buttonReset}
+      text-align: left;
+    `}
+
   display: none;
   margin-left: -20px;
   padding: 10px 20px;
   transition: color 0.1s;
   color: #fff;
   text-decoration: none;
+  cursor: pointer;
+
+  ${props =>
+    props.isSmall &&
+    css`
+      padding: 10px;
+    `}
+
+  ${props =>
+    props.isIcon &&
+    css`
+      font-size: 0;
+    `}
 
   &:hover {
     color: ${yellow};
@@ -112,4 +136,11 @@ export const Spacer = styled.div`
 
 export const Icon = styled(BrandIcon)`
   margin-right: 15px;
+`;
+
+export const LanguageButton = styled.div`
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  font-weight: bold;
 `;

@@ -6,7 +6,7 @@ const TwitterIcon = ({ color, width }) => (
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 300 244"
     width={width}
-    height={Math.ceil(width * (61 / 125))}
+    height={Math.ceil(width * (244 / 300))}
   >
     <path
       fill={color}

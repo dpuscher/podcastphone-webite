@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Partners from "../components/Partners";
 import PhoneNumberBox from "../components/PhoneNumberBox";
 import Press from "../components/Press";
@@ -13,49 +14,24 @@ import {
   HeroImage,
   Wrapper,
 } from "../styles/indexPage.styles";
+import { withTranslation } from "../../i18n";
 
 // eslint-disable-next-line import/no-unresolved
 const header = require("../assets/header.jpg?resize&sizes[]=340&sizes[]=680&sizes[]=800&sizes[]=1024");
 
-const Home = () => (
+const Home = ({ t }) => (
   <>
     <Wrapper>
       <Hero>
         <HeroImage src={header.src} srcSet={header.srcSet} alt="" />
       </Hero>
       <Content>
-        <H2>Digitale Inhalte für die Strippe</H2>
-        <p>
-          Im Rahmen des #wirvsvirus Hackathon der Bundesregierung Deutschland
-          werden mutige und innovative Ideen gesucht, die der Gesellschaft dabei
-          helfen, jetzt solidarisch zu sein und gestärkt aus der aktuellen
-          schwierigen Situation durch Covid-19 hervorzugehen.
-        </p>
-        <p>
-          Unter der Challenge „Analoge Unterstützung: Wie können Personen (bes.
-          SeniorInnen) ohne Internet-Zugang betreut und unterstützt werden?“ hat
-          es sich das Team von PodcastPhone zur Aufgabe gemacht, digitale
-          Inhalte wie Podcasts via Telefon zu der älteren Bevölkerung & Menschen
-          in Isolation oder Quarantäne ohne Internetzugang zu bringen.
-        </p>
-        <p>
-          Mit #podcastphone entsteht ein öffentlicher Informationsdienst, der
-          einen analogen Zugang zu digitalen Inhalten ermöglicht. Unser Ziel ist
-          es, tagesaktuelle digitale und regionale Formate auf der Tonspur unter
-          einer öffentlichen kostenlosen Telefonnummer anzubieten. In einem
-          weiteren Schritt soll der Dienst die Verbindung von Menschen
-          untereinander ermöglichen und sogar die Möglichkeit eines Gesprächs
-          mit einem Seelsorger oder Pfarrer anbieten.
-        </p>
-        <p>
-          Dadurch soll nicht nur eine Brücke zwischen der digitalen Medienwelt
-          und analogen Kommunikationsmitteln geschlagen werden, sondern auch die
-          Möglichkeit entstehen, sich der Gesellschaft wieder näher zu fühlen.
-        </p>
-        <p>
-          Die Informationsbreite des Internets ist in Zukunft nur noch einen
-          Anruft entfernt. Mit PodcastPhone.
-        </p>
+        <H2>{t("common:slogan")}</H2>
+        <p>{t("intro1")}</p>
+        <p>{t("intro2")}</p>
+        <p>{t("intro3")}</p>
+        <p>{t("intro4")}</p>
+        <p>{t("intro5")}</p>
         <PhoneNumberBox />
         <VideoEmbed />
         <PressLogos />
@@ -68,4 +44,12 @@ const Home = () => (
   </>
 );
 
-export default Home;
+Home.getInitialProps = async () => ({
+  namespacesRequired: ["common", "home"],
+});
+
+Home.propTypes = {
+  t: PropTypes.func.isRequired,
+};
+
+export default withTranslation(["home", "common"])(Home);

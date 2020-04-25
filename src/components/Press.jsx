@@ -1,14 +1,16 @@
+import PropTypes from "prop-types";
 import React from "react";
+import { withTranslation } from "../../i18n";
 import externalLinkAttr from "../lib/externalLinkAttr";
 import { Item, Items, SubHeadline } from "./styles/Press.styles";
 import H2 from "./typography/H2";
 
-const Press = () => (
+const Press = ({ t }) => (
   <>
-    <H2 id="press">Presse</H2>
+    <H2 id="press">{t("pressHeading")}</H2>
     <Items>
       <Item>
-        <SubHeadline>Retweet von Dorothee Bär</SubHeadline>
+        <SubHeadline>{t("tweetHeadline")}</SubHeadline>
         <blockquote className="twitter-tweet">
           <p lang="de" dir="ltr">
             Gerade exklusiven Sneak Peak in einen{" "}
@@ -40,37 +42,35 @@ const Press = () => (
       </Item>
 
       <Item>
-        <SubHeadline>CHIP Fazit zu PodcastPhone</SubHeadline>
+        <SubHeadline>{t("chipHeadline")}</SubHeadline>
         <p>
-          „Hervorragendes Angebot für all diejenigen, die kein Zugang zum
-          Internet haben oder dieses nicht für sich als Informationsquelle
-          nutzen können.”
+          „{t("chipReview")}”
           <br />
           <small>
-            Michael Humpa | CHIP Software-Redaktion |{" "}
+            {t("chipSubline")} |{" "}
             <a
               href="https://www.chip.de/downloads/PodcastPhone_182565403.html"
               {...externalLinkAttr}
             >
-              Quelle
+              {t("source")}
             </a>
           </small>
         </p>
 
-        <SubHeadline hasMoreSpace>Pressemitteilungen</SubHeadline>
+        <SubHeadline hasMoreSpace>{t("pressReleases")}</SubHeadline>
         <p>
           <a href="/documents/PM_PodcastPhone_003.pdf" {...externalLinkAttr}>
-            Pressemitteilung vom 07. April 2020
+            {t("pressRelease1")}
           </a>
         </p>
         <p>
           <a href="/documents/PM_PodcastPhone_002.pdf" {...externalLinkAttr}>
-            Pressemitteilung vom 30. März 2020
+            {t("pressRelease2")}
           </a>
         </p>
         <p>
           <a href="/documents/PM_PodcastPhone_001.pdf" {...externalLinkAttr}>
-            Pressemitteilung vom 22. März 2020
+            {t("pressRelease3")}
           </a>
         </p>
       </Item>
@@ -78,4 +78,8 @@ const Press = () => (
   </>
 );
 
-export default Press;
+Press.propTypes = {
+  t: PropTypes.func.isRequired,
+};
+
+export default withTranslation("home")(Press);
