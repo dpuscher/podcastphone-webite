@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { desktop, mobileOrTablet } from "../../lib/mediaQueries";
+import { desktop } from "../../lib/mediaQueries";
 
 export const Items = styled.div`
   display: block;
