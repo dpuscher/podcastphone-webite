@@ -12,6 +12,7 @@
     "express": "^4.17.1",
     "i18next": "^19.4.3",
     "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
     "lqip-loader": "^2.2.0",
     "next": "9.3.5",
     "next-i18next": "^4.3.0",
