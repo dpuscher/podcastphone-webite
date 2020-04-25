@@ -4,7 +4,7 @@ import cellularLogo from "../assets/logo_cellular.svg";
 import zdfLogo from "../assets/logo_zdf.svg";
 import regierungLogo from "../assets/logo_bundesregierung.svg";
 import hackathonLogo from "../assets/logo_hackathon.png";
-import solutionEnablerLogo from "../assets/Solution-Enabler.png";
+import solutionEnablerLogo from "../assets/logo_solution_enabler.png";
 import {
   Heading,
   Logos,
