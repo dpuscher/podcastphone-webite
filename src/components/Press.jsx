@@ -10,6 +10,14 @@ const Press = ({ t }) => (
     <H2 id="press">{t("pressHeading")}</H2>
     <Items>
       <Item>
+        <SubHeadline>{t("vodafoneStoryHeadline")}</SubHeadline>
+        <a href="https://www.vodafone-institut.de/events/pocastphone-digital-news-the-analogue-way/">
+        PocastPhone: digital news the analogue way - Vodafone Institute<br />
+        #WirVsVirus: PodcastPhone is an analogous news service that provides<br />
+        digital information toll-free 24/7 via telephone to close the societal information gap.
+        </a>
+      </Item>
+      <Item>
         <SubHeadline>{t("tweetHeadline")}</SubHeadline>
         <blockquote className="twitter-tweet">
           <p lang="de" dir="ltr">
