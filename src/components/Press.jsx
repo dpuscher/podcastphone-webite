@@ -12,9 +12,7 @@ const Press = ({ t }) => (
       <Item>
         <SubHeadline>{t("vodafoneStoryHeadline")}</SubHeadline>
         <a href="https://www.vodafone-institut.de/events/pocastphone-digital-news-the-analogue-way/">
-        PocastPhone: digital news the analogue way - Vodafone Institute<br />
-        #WirVsVirus: PodcastPhone is an analogous news service that provides<br />
-        digital information toll-free 24/7 via telephone to close the societal information gap.
+        #WirVsVirus: PodcastPhone is an analogous news service that provides digital information toll-free 24/7 via telephone to close the societal information gap.
         </a>
       </Item>
       <Item>
