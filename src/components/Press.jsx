@@ -12,9 +12,12 @@ const Press = ({ t }) => (
       <Item>
         <SubHeadline>{t("vodafoneStoryHeadline")}</SubHeadline>
         <a href="https://www.vodafone-institut.de/events/pocastphone-digital-news-the-analogue-way/">
-        #WirVsVirus: PodcastPhone is an analogous news service that provides digital information toll-free 24/7 via telephone to close the societal information gap.
+          #WirVsVirus: PodcastPhone is an analogous news service that provides
+          digital information toll-free 24/7 via telephone to close the societal
+          information gap.
         </a>
       </Item>
+
       <Item>
         <SubHeadline>{t("tweetHeadline")}</SubHeadline>
         <blockquote className="twitter-tweet">
@@ -62,8 +65,10 @@ const Press = ({ t }) => (
             </a>
           </small>
         </p>
+      </Item>
 
-        <SubHeadline hasMoreSpace>{t("pressReleases")}</SubHeadline>
+      <Item>
+        <SubHeadline>{t("pressReleases")}</SubHeadline>
         <p>
           <a href="/documents/PM_PodcastPhone_003.pdf" {...externalLinkAttr}>
             {t("pressRelease1")}

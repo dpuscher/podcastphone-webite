@@ -7,18 +7,13 @@ export const Items = styled.div`
 
   ${desktop(css`
     display: flex;
+    flex-wrap: wrap;
     margin: 0 -20px;
   `)}
 `;
 
 export const SubHeadline = styled.h3`
   margin: 10px 0;
-
-  ${props =>
-    props.hasMoreSpace &&
-    css`
-      margin-top: 40px;
-    `}
 `;
 
 export const Item = styled.div`
