@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ScriptTag from "react-script-tag";
 import Partners from "../components/Partners";
 import PhoneNumberBox from "../components/PhoneNumberBox";
 import Press from "../components/Press";
@@ -19,7 +18,6 @@ import { withTranslation } from "../../i18n";
 
 // eslint-disable-next-line import/no-unresolved
 const header = require("../assets/header.jpg?resize&sizes[]=340&sizes[]=680&sizes[]=800&sizes[]=1024");
-
 
 const Home = ({ t }) => (
   <>
@@ -41,7 +39,6 @@ const Home = ({ t }) => (
         <Team />
         <Press />
         <Partners />
-        <ScriptTag type="text/javascript" src="https://webcomponent.coverified.info/build/embed.js" async/>
       </Content>
     </Wrapper>
   </>

@@ -61,6 +61,10 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <script
+            async
+            src="https://webcomponent.coverified.info/build/embed.js"
+          />
         </body>
       </Html>
     );
