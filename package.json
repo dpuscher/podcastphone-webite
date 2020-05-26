@@ -10,20 +10,20 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "express": "^4.17.1",
-    "i18next": "^19.4.3",
+    "i18next": "^19.4.5",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^8.0.0",
     "lqip-loader": "^2.2.0",
-    "next": "9.3.5",
-    "next-i18next": "^4.3.0",
+    "next": "9.4.2",
+    "next-i18next": "^4.4.2",
     "next-optimized-images": "^2.6.0",
     "prop-types": "^15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-is": "^16.13.1",
     "responsive-loader": "^1.2.0",
-    "sharp": "^0.25.2",
-    "styled-components": "^5.1.0"
+    "sharp": "^0.25.3",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",
