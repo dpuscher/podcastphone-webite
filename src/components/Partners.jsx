@@ -7,6 +7,8 @@ import zdfLogo from "../assets/logo_zdf.svg";
 import regierungLogo from "../assets/logo_bundesregierung.svg";
 import hackathonLogo from "../assets/logo_hackathon.png";
 import solutionEnablerLogo from "../assets/logo_solution_enabler.png";
+import bagsoLogo from "../assets/logo_bagso.png";
+import vodafoneLogo from "../assets/logo_vodafone.png";
 import {
   Heading,
   Logos,
@@ -46,8 +48,11 @@ const Partners = ({ t }) => (
           <Logo logoWidth={120}>
             <img src={sipgateLogo} alt="Sipgate" width="120" />
           </Logo>
-          <Logo logoWidth={55}>
-            <img src={cellularLogo} alt="Cellular" width="55" />
+          <Logo logoWidth={120}>
+            <img src={bagsoLogo} alt="bagso" width="120" />
+          </Logo>
+          <Logo logoWidth={120}>
+            <img src={vodafoneLogo} alt="vodafone" width="120" />
           </Logo>
         </LogoWrapper>
       </Logos>
