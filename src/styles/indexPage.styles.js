@@ -29,3 +29,10 @@ export const Content = styled.section`
   padding: 25px 20px 50px;
   text-align: justify;
 `;
+
+export const NewsTicker = styled.div`
+  margin: 10px 0 30px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.4rem;
+`;
