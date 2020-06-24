@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import externalLinkAttr from "../../lib/externalLinkAttr";
 import { tablet } from "../../lib/mediaQueries";
 
 export const Wrapper = styled.div`
@@ -26,7 +27,8 @@ export const LogoWrapper = styled.div`
   height: 80px;
 `;
 
-export const Logo = styled.div`
+export const Logo = styled.a.attrs(externalLinkAttr)`
+  display: block;
   width: ${props => props.logoWidth}px;
   margin-right: 15px;
 
