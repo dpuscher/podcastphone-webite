@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "i18next": "^19.4.5",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^8.0.0",
